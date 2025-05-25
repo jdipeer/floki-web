@@ -22,11 +22,11 @@ const Footer = () => {
                   {col.links.map((link: any, i: number) =>
                     isInternal(link.link) ? (
                       <Link key={i} href={link.link}>
-                        <img src={link.icon} alt={link.label} width={20} height={20} />
+                        <img src={link.icon} alt={link.label} />
                       </Link>
                     ) : (
                       <a key={i} href={link.link} target="_blank" rel="noopener noreferrer">
-                        <img src={link.icon} alt={link.label} width={20} height={20} />
+                        <img src={link.icon} alt={link.label} />
                       </a>
                     )
                   )}

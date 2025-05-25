@@ -17,7 +17,7 @@ const Faq = () => {
             <div key={index} className={styles.accordionItem}>
               <details className={styles.accordionDetails}>
                 <summary className={styles.accordionSummary}>
-                  <h4 className={styles.accordionQuestion}>{q.question}</h4>
+                  <div className={styles.accordionQuestion}>{q.question}</div>
                 </summary>
                 <div className={styles.accordionAnswer}>
                   <div className={styles.accordionContent}>{q.answer}</div>

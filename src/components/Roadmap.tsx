@@ -11,7 +11,7 @@ const Roadmap = () => {
       <div className={styles.container}>
         <div className={styles.leftColumn}>
           <div className={styles.headerBox}>
-            <span className={styles.label}>{t('roadmap.sectionLabel')}</span>
+            <div className={styles.label}>{t('roadmap.sectionLabel')}</div>
             <div className={styles.subtitle}>
               {t('roadmap.subtitle')} <span>{t('roadmap.subtitleHighlight')}</span> Achievements and
               Backlog.

@@ -20,13 +20,7 @@ const Contact = () => {
         <div className={styles.socialIcons}>
           {socials.map((social: any, index: number) => (
             <a key={index} href={social.link} target="_blank" rel="noopener noreferrer">
-              <img
-                src={social.icon}
-                alt={social.name}
-                width={index === 1 ? 75 : 60}
-                height={60}
-                className={styles.socialIcon}
-              />
+              <img src={social.icon} alt={social.name} className={styles.socialIcon} />
             </a>
           ))}
         </div>

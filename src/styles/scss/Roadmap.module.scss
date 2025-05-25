@@ -142,6 +142,15 @@
     padding: 0;
   }
 
+  .headerBox {
+    text-align: center;
+  }
+
+  .label {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
   .leftColumn {
     position: static;
     top: unset;
