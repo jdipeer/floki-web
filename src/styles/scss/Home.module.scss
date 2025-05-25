@@ -1,0 +1,11 @@
+@import './variables';
+.main {
+  height: 100%;
+  width: 100%;
+
+  .containerBoxed {
+    height: 100%;
+    align-items: center;
+    padding-top: 80px;
+  }
+}

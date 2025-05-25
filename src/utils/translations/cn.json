@@ -1,0 +1,278 @@
+{
+  "header": {
+    "menu": [
+      { "label": "关于我们", "link": "#about" },
+      { "label": "发展历程", "link": "#milestones" },
+      { "label": "钱包", "link": "#wallets" },
+      { "label": "区块浏览器", "link": "https://flokichain.info" },
+      { "label": "主题", "link": "#topics" },
+      { "label": "常见问题", "link": "#faq" },
+      { "label": "社区", "link": "#contact" }
+    ],
+    "socials": [
+      { "name": "X", "icon": "/img/x.png", "link": "https://x.com/flokicoin_dao" },
+      {
+        "name": "Discord",
+        "icon": "/img/discord.png",
+        "link": "https://flokicoin.org/discord",
+        "width": 21
+      },
+      { "name": "Github", "icon": "/img/github.png", "link": "https://github.com/flokiorg" }
+    ],
+    "languages": ["EN", "CN", "RU"]
+  },
+  "slider": {
+    "title": "Flokicoin 是",
+    "carousel": [
+      "所有权",
+      "无需许可",
+      "可挖矿",
+      "无需信任",
+      "点对点",
+      "开源",
+      "货币",
+      "去中心化",
+      "安全",
+      "全球化",
+      "快速",
+      "公平",
+      "社区驱动",
+      "自主管理",
+      "透明",
+      "不可阻挡"
+    ]
+  },
+  "about": {
+    "subtitle": "关键数据与亮点",
+    "cards": [
+      {
+        "image": "/img/ico01.png",
+        "subtitle": "创新的坚实基础",
+        "title": "第一层区块链",
+        "description": "Flokicoin 作为一条 Layer 1 区块链运行..."
+      },
+      {
+        "image": "/img/ico02.png",
+        "subtitle": "合并挖矿",
+        "title": "Scrypt 系列",
+        "description": "通过加入 Scrypt 系列..."
+      },
+      {
+        "image": "/img/ico03.png",
+        "subtitle": "社区驱动",
+        "title": "x Fun",
+        "description": "Flokicoin 通过 FEPs 持续发展..."
+      }
+    ]
+  },
+  "roadmap": {
+    "sectionLabel": "发展历程",
+    "subtitle": "社区",
+    "subtitleHighlight": "里程碑",
+    "intro": "每一个里程碑都体现了社区合作的力量，借助我们的交流渠道，并通过 FEPs 和 FIPs 持续优化。",
+    "milestones": [
+      {
+        "title": "创世",
+        "label": "[ Floki 已上线 ]"
+      },
+      {
+        "title": "Flokicoin 复兴",
+        "label": "[ Floki 回来了 ]",
+        "description": "链从区块 19,721 恢复。"
+      },
+      {
+        "title": "Taproot 启用",
+        "label": "[ 低手续费，高隐私 ]",
+        "description": "启用 Taproot，提高交易效率、可扩展性和隐私性。"
+      },
+      {
+        "title": "加入 Scrypt 系列",
+        "label": "[ 网络安全更强大 ]",
+        "description": "Flokicoin 将在区块 115,840 加入 Scrypt 系列。"
+      },
+      {
+        "title": "闪电网络",
+        "label": "[ 快速，低成本 ]",
+        "description": "实现生态系统内的即时支付和微交易。"
+      },
+      {
+        "title": "资产代币化",
+        "label": "[ Taproot 资产、符文、铭文 ]",
+        "description": "解锁可替代和不可替代资产的能力。"
+      },
+      {
+        "title": "链下计算",
+        "label": "[ OP_CAT，零知识证明 ]",
+        "description": "实现链上验证零知识证明的能力。"
+      }
+    ]
+  },
+  "wallets": {
+    "cards": [
+      {
+        "title": "tWallet 钱包",
+        "button": "下载",
+        "description": "使用我们简单、安全、用户友好的钱包，轻松存储、发送和接收数字资产，放心无忧。",
+        "link": "https://github.com/flokiorg/twallet/releases"
+      },
+      {
+        "title": "区块浏览器",
+        "button": "进入",
+        "description": "实时跟踪区块和交易、查询钱包余额、查看挖矿数据与网络活动等更多信息。",
+        "link": "https://flokichain.info"
+      }
+    ]
+  },
+  "faq": {
+    "sectionTag": "常见问题",
+    "title": "常见问题解答",
+    "questions": [
+      {
+        "question": "什么是 Flokicoin？",
+        "answer": "Flokicoin 是一条第一层区块链，最初于 2021 年在 Elon Musk 发推后发布（“Floki has arrived”）。"
+      },
+      {
+        "question": "谁创建了 Flokicoin？",
+        "answer": "Flokicoin 最初由一位匿名开发者创建，并在区块 19,721 后不久放弃了该项目。"
+      },
+      {
+        "question": "Flokicoin 是什么时候复兴的？",
+        "answer": "Flokicoin 于 2024 年在区块 19,721 被复兴。我们没有从零开始，而是延续 2021 年的原链，保留了历史。"
+      },
+      {
+        "question": "Flokicoin 的核心特点有哪些？",
+        "answer": "• 每个区块 1 分钟\n• 支持合并挖矿\n• 每 210,000 个区块减半\n• 初始区块奖励为 1000 $FLC，最终稳定在 21 $FLC\n• 零交易税\n• DAO 治理"
+      },
+      {
+        "question": "Flokicoin 使用 PoW 挖矿，是否环保？",
+        "answer": "虽然 PoW 挖矿需要消耗能源，但 Flokicoin 通过合并挖矿优化能源使用，可与其他链同时挖矿，从而提高效率。"
+      },
+      {
+        "question": "$LOKI 是什么？",
+        "answer": "$LOKI 是 Flokicoin（$FLC）的最小单位\n\n1 $FLC = 100,000,000 $LOKI"
+      },
+      {
+        "question": "我该如何加入 Flokicoin 社区？",
+        "answer": "你可以通过我们的社交媒体和聊天群加入 Flokicoin 社区，参与治理、开发讨论，并通过 FEPs 一起定义乐趣。"
+      },
+      {
+        "question": "我是一名开发者，如何为 Flokicoin 做贡献？",
+        "answer": "开发者可以在 GitHub 上访问 Flokicoin 的开源代码，提交改进、审核代码、通过 FIPs 提出建议，参与社区讨论。"
+      }
+    ]
+  },
+  "topics": {
+    "sectionTag": "主题",
+    "title": "洞察、技巧与更新",
+    "cards": [
+      {
+        "title": "Flokicoin（FLC）挖矿指南",
+        "image": "/img/mine.jpg",
+        "link": "https://github.com/flokiorg/grpc-miner/wiki"
+      },
+      {
+        "title": "Flokicoin 钱包设置指南",
+        "image": "/img/secure.jpg",
+        "link": "https://github.com/flokiorg/tWallet/wiki"
+      },
+      {
+        "title": "Flokicoin 的经济模型与通胀率",
+        "image": "/img/economy.jpg",
+        "link": "https://github.com/flokiorg/go-flokicoin/wiki"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTag": "加入社区",
+    "title1": "加入",
+    "title2": "乐趣",
+    "title3": "共建",
+    "title4": "未来",
+    "socials": [
+      {
+        "name": "X",
+        "icon": "/img/x.png",
+        "link": "https://x.com/flokicoin_dao"
+      },
+      {
+        "name": "Discord",
+        "icon": "/img/discord.png",
+        "link": "https://flokicoin.org/discord"
+      },
+      {
+        "name": "GitHub",
+        "icon": "/img/github.png",
+        "link": "https://github.com/flokiorg"
+      }
+    ]
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "sections": [
+      {
+        "title": "1. 数据收集",
+        "subtitle": "我们收集的信息",
+        "description": "我们仅收集维持平台运作所需的最低限度信息，可能包括 IP 地址、浏览器类型及使用行为。"
+      },
+      {
+        "title": "2. 信息使用",
+        "subtitle": "",
+        "description": "所收集的数据仅用于提升用户体验、分析性能和维护安全性。"
+      },
+      {
+        "title": "3. 数据共享",
+        "subtitle": "与第三方的共享",
+        "description": "除法律要求或保护服务安全外，我们不会向第三方出售或共享您的数据。"
+      },
+      {
+        "title": "4. Cookie 使用",
+        "subtitle": "我们如何使用 Cookie",
+        "description": "我们的网站使用 Cookie 来个性化内容和分析流量。您可以在浏览器设置中禁用 Cookie。"
+      },
+      {
+        "title": "5. 联系我们",
+        "subtitle": "",
+        "description": "如果您对本政策有任何疑问，请发送邮件至 privacy@flokicoin.org 联系我们。"
+      }
+    ]
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "社区",
+        "links": [
+          { "icon": "/img/x.png", "label": "X", "link": "https://x.com/flokicoin_dao" },
+          {
+            "icon": "/img/discord.png",
+            "label": "Discord",
+            "link": "https://flokicoin.org/discord"
+          },
+          { "icon": "/img/github.png", "label": "GitHub", "link": "https://github.com/flokiorg" }
+        ]
+      },
+      {
+        "title": "关于我们",
+        "links": [
+          { "label": "关于我们", "link": "#" },
+          { "label": "公告", "link": "#" },
+          { "label": "隐私政策", "link": "/privacy" }
+        ]
+      },
+      {
+        "title": "学习",
+        "links": [
+          { "label": "什么是 Flokicoin？", "link": "#faq" },
+          { "label": "如何挖矿？", "link": "#topics" },
+          { "label": "钱包指南", "link": "#wallets" }
+        ]
+      },
+      {
+        "title": "产品",
+        "links": [
+          { "label": "区块浏览器", "link": "https://flokichain.info" },
+          { "label": "tWallet", "link": "https://github.com/flokiorg/twallet/releases" }
+        ]
+      }
+    ]
+  }
+}

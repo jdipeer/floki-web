@@ -1,0 +1,278 @@
+{
+  "header": {
+    "menu": [
+      { "label": "О нас", "link": "#about" },
+      { "label": "Этапы", "link": "#milestones" },
+      { "label": "Кошелёк", "link": "#wallets" },
+      { "label": "Эксплорер", "link": "https://flokichain.info" },
+      { "label": "Темы", "link": "#topics" },
+      { "label": "FAQ", "link": "#faq" },
+      { "label": "Сообщество", "link": "#contact" }
+    ],
+    "socials": [
+      { "name": "X", "icon": "/img/x.png", "link": "https://x.com/flokicoin_dao" },
+      {
+        "name": "Discord",
+        "icon": "/img/discord.png",
+        "link": "https://flokicoin.org/discord",
+        "width": 21
+      },
+      { "name": "Github", "icon": "/img/github.png", "link": "https://github.com/flokiorg" }
+    ],
+    "languages": ["EN", "CN", "RU"]
+  },
+  "slider": {
+    "title": "Flokicoin это",
+    "carousel": [
+      "Владение",
+      "Разрешительный",
+      "Добываемый",
+      "Без доверия",
+      "Peer-to-Peer",
+      "С открытым исходным кодом",
+      "Деньги",
+      "Децентрализованный",
+      "Безопасный",
+      "Глобальный",
+      "Быстрый",
+      "Справедливый",
+      "Управляемый сообществом",
+      "Самостоятельное хранение",
+      "Прозрачный",
+      "Неостановимый"
+    ]
+  },
+  "about": {
+    "subtitle": "Ключевые показатели и достижения",
+    "cards": [
+      {
+        "image": "/img/ico01.png",
+        "subtitle": "Надёжная база для инноваций",
+        "title": "Уровень 1",
+        "description": "Flokicoin функционирует как блокчейн уровня 1..."
+      },
+      {
+        "image": "/img/ico02.png",
+        "subtitle": "Слияние майнинга",
+        "title": "Семейство Scrypt",
+        "description": "Присоединившись к семейству Scrypt..."
+      },
+      {
+        "image": "/img/ico03.png",
+        "subtitle": "Управляется сообществом",
+        "title": "x Fun",
+        "description": "Flokicoin развивается через FEPs..."
+      }
+    ]
+  },
+  "roadmap": {
+    "sectionLabel": "Этапы",
+    "subtitle": "Сообщество",
+    "subtitleHighlight": "Этап",
+    "intro": "Каждый этап отражает силу сотрудничества, формируемого через наши каналы общения и уточнённого посредством FEPs (Fun Enhancement Possibilities) и FIPs (Flokicoin Improvement Proposals).",
+    "milestones": [
+      {
+        "title": "Генезис",
+        "label": "[ Floki прибыл ]"
+      },
+      {
+        "title": "Возрождение Flokicoin",
+        "label": "[ Floki вернулся ]",
+        "description": "Цепочка возобновлена с блока 19 721."
+      },
+      {
+        "title": "Активация Taproot",
+        "label": "[ Низкие комиссии, высокая приватность ]",
+        "description": "Taproot активирован, улучшая эффективность транзакций, масштабируемость и приватность."
+      },
+      {
+        "title": "Семейство Scrypt",
+        "label": "[ Мощная сетeвая безопасность ]",
+        "description": "Flokicoin присоединится к семейству Scrypt на блоке 115 840."
+      },
+      {
+        "title": "Сеть Lightning",
+        "label": "[ быстро, дешево ]",
+        "description": "Обеспечение мгновенных платежей и микротранзакций по всей экосистеме."
+      },
+      {
+        "title": "Токенизация",
+        "label": "[ Taproot-Assets, Runes, Ordinals ]",
+        "description": "Открытие функционала для заменяемых и невзаимозаменяемых активов."
+      },
+      {
+        "title": "Внецепочечные вычисления",
+        "label": "[ OP_CAT, ZKP ]",
+        "description": "Обеспечение на‑цепочечной проверки доказательств с нулевым разглашением."
+      }
+    ]
+  },
+  "wallets": {
+    "cards": [
+      {
+        "title": "tWallet",
+        "button": "СКАЧАТЬ",
+        "description": "Храните, отправляйте и получайте цифровые активы с нашим простым, безопасным и удобным кошельком, созданным для простоты и спокойствия.",
+        "link": "https://github.com/flokiorg/twallet/releases"
+      },
+      {
+        "title": "Эксплорер",
+        "button": "ЭКСПЛОРЕР",
+        "description": "Отслеживайте блоки и транзакции, проверяйте балансы кошельков, узнавайте о показателях майнинга и активности сети в реальном времени и многое другое.",
+        "link": "https://flokichain.info"
+      }
+    ]
+  },
+  "faq": {
+    "sectionTag": "FAQ",
+    "title": "Ваши вопросы — ответы",
+    "questions": [
+      {
+        "question": "Что такое Flokicoin?",
+        "answer": "Flokicoin — это блокчейн уровня 1, запущенный в 2021 году после твита Илона Маска («Floki has arrived»)."
+      },
+      {
+        "question": "Кто основал Flokicoin?",
+        "answer": "Изначально Flokicoin был создан анонимным разработчиком, который покинул проект вскоре после его первого релиза на блоке 19 721."
+      },
+      {
+        "question": "Когда произошло возрождение Flokicoin?",
+        "answer": "Flokicoin был возрождён в 2024 году на блоке 19 721. Вместо старта с нуля мы продолжили с оригинальной цепочки 2021 года, сохранив всю историю."
+      },
+      {
+        "question": "Какие ключевые особенности Flokicoin?",
+        "answer": "• Время блока 1 минута\n• Поддержка вспомогательного майнинга\n• Халвинг каждые 210 000 блоков\n• Начальная награда 1000 $FLC за блок, с Халвингом до стабилизации на 21 $FLC\n• Отсутствие налога с транзакций\n• Управление через DAO"
+      },
+      {
+        "question": "Экологичен ли Flokicoin, учитывая Proof‑of‑Work (PoW)?",
+        "answer": "Хотя PoW требует энергии, Flokicoin оптимизирует её использование посредством вспомогательного майнинга. Это позволяет участникам майнить Flokicoin одновременно с другими цепями, повышая эффективность."
+      },
+      {
+        "question": "Что такое $LOKI?",
+        "answer": "$LOKI — наименьшая единица Flokicoin ($FLC)\n\n1 $FLC = 100 000 000 $LOKI"
+      },
+      {
+        "question": "Как присоединиться к сообществу Flokicoin?",
+        "answer": "Вы можете присоединиться к сообществу через наши соцсети и чаты. Участвуйте в решениях управления, обсуждениях разработки и помогайте создавать «весёлое» через FEPs (Fun Enhancement Possibilities)."
+      },
+      {
+        "question": "Как я могу внести вклад в Flokicoin как разработчик?",
+        "answer": "Как разработчик, вы можете внести вклад, используя открытый исходный код в наших репозиториях Git. Вы можете направлять улучшения, рецензировать код и делиться идеями через FIPs (Flokicoin Improvement Proposals) или обсуждения в сообществе."
+      }
+    ]
+  },
+  "topics": {
+    "sectionTag": "Темы",
+    "title": "Инсайты, советы и обновления",
+    "cards": [
+      {
+        "title": "Руководство по майнингу Flokicoin (FLC)",
+        "image": "/img/mine.jpg",
+        "link": "https://github.com/flokiorg/grpc-miner/wiki"
+      },
+      {
+        "title": "Как настроить ваш Flokicoin‑кошелёк",
+        "image": "/img/secure.jpg",
+        "link": "https://github.com/flokiorg/tWallet/wiki"
+      },
+      {
+        "title": "Экономика Flokicoin и уровень инфляции",
+        "image": "/img/economy.jpg",
+        "link": "https://github.com/flokiorg/go-flokicoin/wiki"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTag": "Свяжитесь с сообществом",
+    "title1": "Присоединяйтесь",
+    "title2": "К веселью",
+    "title3": "Формируйте",
+    "title4": "Будущее",
+    "socials": [
+      {
+        "name": "X",
+        "icon": "/img/x.png",
+        "link": "https://x.com/flokicoin_dao"
+      },
+      {
+        "name": "Discord",
+        "icon": "/img/discord.png",
+        "link": "https://flokicoin.org/discord"
+      },
+      {
+        "name": "GitHub",
+        "icon": "/img/github.png",
+        "link": "https://github.com/flokiorg"
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Политика конфиденциальности",
+    "sections": [
+      {
+        "title": "1. Сбор данных",
+        "subtitle": "Информация, которую мы собираем",
+        "description": "Мы собираем только минимально необходимую информацию для эффективной работы нашей платформы. Это может включать ваш IP‑адрес, тип браузера и поведение на сайте."
+      },
+      {
+        "title": "2. Использование информации",
+        "subtitle": "",
+        "description": "Собранные данные используются строго для улучшения пользовательского опыта, анализа производительности и обеспечения безопасности."
+      },
+      {
+        "title": "3. Обмен данными",
+        "subtitle": "С третьими сторонами",
+        "description": "Мы не продаём и не передаём ваши данные третьим лицам, кроме случаев, когда это требуется по закону или для защиты наших сервисов."
+      },
+      {
+        "title": "4. Файлы cookie",
+        "subtitle": "Как мы используем cookie",
+        "description": "Наш сайт использует cookie для персонализации контента и анализа трафика. Вы можете отключить cookie в настройках браузера."
+      },
+      {
+        "title": "5. Свяжитесь с нами",
+        "subtitle": "",
+        "description": "Если у вас есть вопросы по этой политике, пожалуйста, свяжитесь с нами по адресу privacy@flokicoin.org."
+      }
+    ]
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "Сообщество",
+        "links": [
+          { "icon": "/img/x.png", "label": "X", "link": "https://x.com/flokicoin_dao" },
+          {
+            "icon": "/img/discord.png",
+            "label": "Discord",
+            "link": "https://flokicoin.org/discord"
+          },
+          { "icon": "/img/github.png", "label": "GitHub", "link": "https://github.com/flokiorg" }
+        ]
+      },
+      {
+        "title": "О нас",
+        "links": [
+          { "label": "О нас", "link": "#" },
+          { "label": "Анонсы", "link": "#" },
+          { "label": "Конфиденциальность", "link": "/privacy" }
+        ]
+      },
+      {
+        "title": "Учитесь",
+        "links": [
+          { "label": "Что такое Flokicoin?", "link": "#faq" },
+          { "label": "Как майнить?", "link": "#topics" },
+          { "label": "Руководство по кошельку", "link": "#wallets" }
+        ]
+      },
+      {
+        "title": "Продукты",
+        "links": [
+          { "label": "Эксплорер", "link": "https://flokichain.info" },
+          { "label": "tWallet", "link": "https://github.com/flokiorg/twallet/releases" }
+        ]
+      }
+    ]
+  }
+}
