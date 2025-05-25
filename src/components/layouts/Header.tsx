@@ -17,7 +17,7 @@ const Header = () => {
       const id = link.slice(1);
 
       if (router.pathname !== '/') {
-        router.push(`/?scrollTo=${id}`);
+        router.push(`/#${id}`);
       } else {
         const target = document.getElementById(id);
         if (target) {
