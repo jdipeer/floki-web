@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 20px;
 }
 
 .leftColumn {
@@ -33,7 +33,6 @@
   padding: 10px 20px;
   border: 1px solid #363636;
   border-radius: 30px;
-  background: #000;
 }
 
 .subtitle {
@@ -158,15 +157,15 @@
   }
 
   .timelineWrapper {
-    padding-left: 30px;
+    padding-left: 0px;
   }
 
   .timelineLine {
-    left: 44px;
+    left: 5px;
   }
 
   .milestoneDot {
-    left: 9px;
+    left: 0px;
   }
 
   .milestoneContent {
@@ -175,10 +174,6 @@
 
   .subtitle {
     font-size: 28px;
-    text-align: center;
-  }
-
-  .description {
     text-align: center;
   }
 }

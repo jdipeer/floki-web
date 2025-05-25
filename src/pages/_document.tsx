@@ -5,7 +5,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>{/* Remove any Emotion or specific style tags */}</Head>
+        <Head></Head>
         <body>
           <Main />
           <NextScript />
