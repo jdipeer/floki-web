@@ -54,7 +54,6 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className={styles.footerNote}>Flokicoin © {new Date().getFullYear()}</div>
       </div>
     </footer>
   );
