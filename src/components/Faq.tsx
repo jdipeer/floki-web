@@ -27,14 +27,10 @@ const Faq = () => {
                   {index == 0 && q.linkLabel && (
                     <span>
                       (&quot;
-                      <a
-                        href={q.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ color: '#d0970f' }}>
+                      <a href={q.link} target="_blank" rel="noopener noreferrer">
                         {q.linkLabel}
                       </a>
-                      &quot;).
+                      &quot;)
                     </span>
                   )}
                 </div>
