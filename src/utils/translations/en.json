@@ -19,7 +19,11 @@
       },
       { "name": "Github", "icon": "/img/github.png", "link": "https://github.com/flokiorg" }
     ],
-    "languages": ["EN", "CN", "RU"]
+    "langs": [
+      { "label": "English", "value": "en" },
+      { "label": "Chinese", "value": "cn" },
+      { "label": "Russian", "value": "ru" }
+    ]
   },
   "slider": {
     "title": "Flokicoin is",
@@ -49,19 +53,19 @@
         "image": "/img/ico01.png",
         "subtitle": "Solid Foundation for Innovation",
         "title": "Layer 1",
-        "description": "Flokicoin operates as a Layer 1 blockchain..."
+        "description": "Flokicoin operates as a Layer 1 blockchain, providing the foundation for secure, scalable, and decentralized solutions."
       },
       {
         "image": "/img/ico02.png",
         "subtitle": "Merged Mining",
         "title": "Scrypt family",
-        "description": "By joining the scrypt family..."
+        "description": "By joining the scrypt family, FlokiCoin ensures fast, energy-efficient mining while maintaining strong network security."
       },
       {
         "image": "/img/ico03.png",
         "subtitle": "Community-driven",
         "title": "x Fun",
-        "description": "Flokicoin evolves through FEPs..."
+        "description": "Flokicoin evolves through FEPs (Fun Enhancement Possibilities), inspiring innovation and fun."
       }
     ]
   },
@@ -129,7 +133,9 @@
     "questions": [
       {
         "question": "What is Flokicoin?",
-        "answer": "Flokicoin is a Layer 1 blockchain that was initially launched in 2021 following Elon Musk's tweet (\"Floki has arrived\")."
+        "answer": "Flokicoin is a Layer 1 blockchain that was initially launched in 2021 following Elon Musk's tweet ",
+        "linkLabel": "Floki has arrived",
+        "link": "https://x.com/elonmusk/status/1437179881260032016"
       },
       {
         "question": "Who founded Flokicoin?",
@@ -141,7 +147,7 @@
       },
       {
         "question": "What are Flokicoin's key features?",
-        "answer": "• 1-minute block time\n• Auxiliary mining support\n• Halving every 210,000 blocks\n• Initial block reward is 1000 $FLC per block, halving until it stabilizes at 21 $FLC\n• No transaction tax\n• DAO governance"
+        "answer": "• 1-minute block time<br/>• Auxiliary mining support<br/>• Halving every 210,000 blocks<br/>• Initial block reward is 1000 $FLC per block, halving until it stabilizes at 21 $FLC<br/>• No transaction tax<br/>• DAO governance"
       },
       {
         "question": "Is Flokicoin environmentally friendly since it uses Proof of Work (PoW) mining?",
@@ -149,7 +155,7 @@
       },
       {
         "question": "What is $LOKI?",
-        "answer": "$LOKI is the smallest unit of a Flokicoin ($FLC)\n\n1 $FLC = 100,000,000 $LOKI"
+        "answer": "$LOKI is the smallest unit of a Flokicoin ($FLC)<br/><br/>1 $FLC = 100,000,000 $LOKI"
       },
       {
         "question": "How can I join the Flokicoin community?",

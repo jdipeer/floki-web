@@ -8,7 +8,7 @@
 .container {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 30px 0 100px;
 }
 
 .columns {
@@ -77,7 +77,7 @@
 }
 
 .languageWrap {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 // Responsive
@@ -87,6 +87,6 @@
   }
 
   .container {
-    padding: 0 16px;
+    padding: 0 5px 0 30px;
   }
 }

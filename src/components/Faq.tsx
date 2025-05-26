@@ -20,7 +20,23 @@ const Faq = () => {
                   <div className={styles.accordionQuestion}>{q.question}</div>
                 </summary>
                 <div className={styles.accordionAnswer}>
-                  <div className={styles.accordionContent}>{q.answer}</div>
+                  <div
+                    className={styles.accordionContent}
+                    dangerouslySetInnerHTML={{ __html: q.answer }}
+                  />
+                  {index == 0 && q.linkLabel && (
+                    <span>
+                      (&quot;
+                      <a
+                        href={q.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: '#d0970f' }}>
+                        {q.linkLabel}
+                      </a>
+                      &quot;).
+                    </span>
+                  )}
                 </div>
               </details>
             </div>
