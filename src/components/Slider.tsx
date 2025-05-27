@@ -60,7 +60,7 @@ const Slider = () => {
           <span className={styles.cursor}>_</span>
         </div>
         <div className={styles.subtitle}>
-          A Layer-1 chain powered by Scrypt Family, Fueling Fun by every block.
+          {t('slider.subtitle')}
         </div>
       </div>
     </div>

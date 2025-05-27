@@ -16,7 +16,7 @@ const Footer = () => {
         <div className={styles.columns}>
           {columns.map((col: any, index: number) => (
             <div className={styles.column} key={index}>
-              <h4 className={styles.columnTitle}>{col.title}</h4>
+              <h4 className={styles.columnTitle} dangerouslySetInnerHTML={{ __html: col.title }}></h4>
               {col.links.every((link: any) => link.icon) ? (
                 <div className={styles.iconGroup}>
                   {col.links.map((link: any, i: number) =>

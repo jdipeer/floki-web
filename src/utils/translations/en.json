@@ -29,6 +29,7 @@
     "title": "Flokicoin is",
     "carousel": [
       "Ownership",
+      "Zero-Knowledge Proof",
       "Permissionless",
       "Mineable",
       "Trustless",
@@ -44,7 +45,8 @@
       "Self-Custody",
       "Transparent",
       "Unstoppable"
-    ]
+    ],
+    "subtitle": "A Layer-1 chain powered by Scrypt Family, Fueling Fun every block."
   },
   "about": {
     "subtitle": "Key stats and highlights",
@@ -53,18 +55,18 @@
         "image": "/img/ico01.png",
         "subtitle": "Solid Foundation for Innovation",
         "title": "Layer 1",
-        "description": "Flokicoin operates as a Layer 1 blockchain, providing the foundation for secure, scalable, and decentralized solutions."
+        "description": "Flokicoin runs on its own blockchain, powering secure, scalable, and decentralized applications."
       },
       {
         "image": "/img/ico02.png",
         "subtitle": "Merged Mining",
         "title": "Scrypt family",
-        "description": "By joining the scrypt family, FlokiCoin ensures fast, energy-efficient mining while maintaining strong network security."
+        "description": "By joining the scrypt family, Flokicoin ensures fast, energy-efficient mining while maintaining strong network security."
       },
       {
         "image": "/img/ico03.png",
         "subtitle": "Community-driven",
-        "title": "x Fun",
+        "title": "xFun",
         "description": "Flokicoin evolves through FEPs (Fun Enhancement Possibilities), inspiring innovation and fun."
       }
     ]
@@ -106,7 +108,7 @@
       },
       {
         "title": "Off-Chain Computation",
-        "label": "[ OP_CAT, ZKP ]",
+        "label": "[ OP_CAT, ZKP, Loki-lang ]",
         "description": "Enabling on-chain verification of zero-knowledge proofs."
       }
     ]
@@ -121,7 +123,7 @@
       },
       {
         "title": "Explorer",
-        "button": "EXPLORER",
+        "button": "EXPLORE",
         "description": "Track blocks and transactions, check wallet balances, stay updated on mining metrics and network activity in real-time, and more.",
         "link": "https://flokichain.info"
       }
@@ -133,9 +135,7 @@
     "questions": [
       {
         "question": "What is Flokicoin?",
-        "answer": "Flokicoin is a Layer 1 blockchain that was initially launched in 2021 following Elon Musk's tweet",
-        "linkLabel": "Floki has arrived",
-        "link": "https://x.com/elonmusk/status/1437179881260032016"
+        "answer": "Flokicoin is a Layer 1 blockchain that was initially launched in 2021 following Elon Musk's tweet (\"<a href='https://x.com/elonmusk/status/1437179881260032016' target='_blank' rel='noopener noreferrer'>Floki has arrived</a>\")."
       },
       {
         "question": "Who founded Flokicoin?",
@@ -212,71 +212,131 @@
       }
     ]
   },
+  "terms": {
+    "title": "Terms of Use",
+    "sections": [
+      {
+        "title": "1. Acceptance of Terms",
+        "subtitle": "By accessing or using our platform, you agree to these terms.",
+        "description": "Your use of our services constitutes acceptance of these Terms of Use. If you do not agree, do not use the platform."
+      },
+      {
+        "title": "2. Eligibility",
+        "subtitle": "You must meet the legal requirements.",
+        "description": "You must be at least 18 years old and legally capable of entering into agreements to use this platform. You are solely responsible for compliance with local laws."
+      },
+      {
+        "title": "3. Wallet Responsibility",
+        "subtitle": "You are responsible for securing your wallet.",
+        "description": "We do not hold or manage private keys. You are solely responsible for your wallet credentials. Lost access to your wallet cannot be recovered by us."
+      },
+      {
+        "title": "4. Prohibited Uses",
+        "subtitle": "Illegal activity is strictly forbidden.",
+        "description": "You may not use the platform for any unlawful, fraudulent, or harmful activities, including money laundering, terrorism financing, or violating any local or international laws."
+      },
+      {
+        "title": "5. No Warranties",
+        "subtitle": "Use the platform at your own risk.",
+        "description": "The platform is provided 'as is' with no guarantees of availability, accuracy, or security. We disclaim all warranties to the maximum extent permitted by law."
+      },
+      {
+        "title": "6. Limitation of Liability",
+        "subtitle": "We are not liable for any losses.",
+        "description": "We are not liable for direct, indirect, or consequential damages arising from the use of our platform, including loss of tokens, data, or access."
+      },
+      {
+        "title": "7. Modifications to Terms",
+        "subtitle": "We may update these terms.",
+        "description": "We reserve the right to modify these Terms of Use at any time. Updates will be posted on the site, and continued use implies acceptance of the revised terms."
+      },
+      {
+        "title": "8. Governing Law",
+        "subtitle": "Legal jurisdiction",
+        "description": "These terms are governed by and construed in accordance with the laws of the jurisdiction in which our organization operates, unless stated otherwise."
+      }
+    ]
+  },
   "privacy": {
     "title": "Privacy Policy",
     "sections": [
       {
-        "title": "1. Data Collection",
-        "subtitle": "Information we collect",
-        "description": "We collect only the minimum necessary information to operate our platform efficiently. This may include your IP address, browser type, and usage behavior on the site."
+        "title": "1. Information Collection",
+        "subtitle": "What we collect and why",
+        "description": "We collect minimal data such as IP addresses, browser types, and site usage analytics to maintain and improve platform performance."
       },
       {
-        "title": "2. Use of Information",
-        "subtitle": "",
-        "description": "The data collected is used strictly to improve the user experience, analyze performance, and maintain security."
+        "title": "2. On-chain Data",
+        "subtitle": "Blockchain transparency",
+        "description": "Blockchain data, including wallet addresses and transactions, is publicly available and outside our control. We do not collect or manage on-chain data."
       },
       {
-        "title": "3. Data Sharing",
-        "subtitle": "With third parties",
-        "description": "We do not sell or share your data with any third party except when required by law or to protect our services."
-      },
-      {
-        "title": "4. Cookies",
+        "title": "3. Cookies & Analytics",
         "subtitle": "How we use cookies",
-        "description": "Our website uses cookies to personalize content and analyze traffic. You may choose to disable cookies in your browser settings."
+        "description": "We use cookies and third-party analytics tools like Google Analytics to understand how users interact with the site. You may disable cookies in your browser settings."
       },
       {
-        "title": "5. Contact Us",
-        "subtitle": "",
-        "description": "If you have any questions about this policy, please contact us at privacy@flokicoin.org."
+        "title": "4. Third-party Services",
+        "subtitle": "External tools and integrations",
+        "description": "We may use third-party services for communication, hosting, or analytics. These services may collect information as governed by their own privacy policies."
+      },
+      {
+        "title": "5. User Rights",
+        "subtitle": "Access and control",
+        "description": "You may request access to or deletion of your off-chain personal data. On-chain data cannot be altered or deleted due to its immutable nature."
+      },
+      {
+        "title": "6. Data Security",
+        "subtitle": "Protecting your information",
+        "description": "We take reasonable technical measures to secure the data we collect, but no system can guarantee complete security."
+      },
+      {
+        "title": "7. Policy Updates",
+        "subtitle": "Changes to this policy",
+        "description": "We may revise this Privacy Policy from time to time. Changes will be posted on this page, and your continued use of the platform implies acceptance."
       }
     ]
   },
   "footer": {
     "columns": [
       {
-        "title": "Community",
+        "title": "<img src=\"/logo.svg\" alt=\"Flokicoin\" style=\"width: 70%; height: auto;\">",
         "links": [
           { "icon": "/img/x.png", "label": "X", "link": "https://x.com/flokicoin_dao" },
-          {
-            "icon": "/img/discord.png",
-            "label": "Discord",
-            "link": "https://flokicoin.org/discord"
-          },
+          { "icon": "/img/discord.png", "label": "Discord", "link": "https://flokicoin.org/discord" },
           { "icon": "/img/github.png", "label": "GitHub", "link": "https://github.com/flokiorg" }
         ]
       },
       {
-        "title": "About Us",
+        "title": "Privacy & Terms",
         "links": [
-          { "label": "About", "link": "#" },
-          { "label": "Announcements", "link": "#" },
-          { "label": "Privacy", "link": "/privacy" }
+          { "label": "Terms of Use", "link": "/terms" },
+          { "label": "Privacy Policy", "link": "/privacy" },
+          { "label": "Contact Us", "link": "mailto:contact@flokicoin.org" }
         ]
       },
       {
         "title": "Learn",
         "links": [
-          { "label": "What is Flokicoin?", "link": "#faq" },
-          { "label": "How to mine?", "link": "#topics" },
-          { "label": "Wallet Guide", "link": "#wallets" }
+          { "label": "What is Flokicoin?", "link": "https://github.com/flokiorg/go-flokicoin/wiki" },
+          { "label": "How to mine?", "link": "https://github.com/flokiorg/grpc-miner/wiki" },
+          { "label": "Wallet Guide", "link": "https://github.com/flokiorg/tWallet/wiki" }
         ]
       },
       {
-        "title": "Products",
+        "title": "Use",
         "links": [
-          { "label": "Explorer", "link": "https://flokichain.info" },
-          { "label": "tWallet", "link": "https://github.com/flokiorg/twallet/releases" }
+          { "label": "Run a node", "link": "https://github.com/myfloki/fullnode" },
+          { "label": "Run an operator", "link": "https://github.com/myfloki/operator" },
+          { "label": "API Reference", "link": "https://flokichain.info/docs/api/rest" }
+        ]
+      },
+      {
+        "title": "Community Products",
+        "links": [
+          { "label": "Flokicoin Explorer", "link": "https://flokichain.info" },
+          { "label": "myFloki – Toolchain", "link": "https://myfloki.com" },
+          { "label": "Fpool – Mining Pool", "link": "https://fpool.net" }
         ]
       }
     ]

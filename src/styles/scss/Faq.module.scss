@@ -6,7 +6,7 @@
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 30px;
 }
@@ -101,10 +101,11 @@
     line-height: 1.7;
     font-size: 17px;
     opacity: 0.7;
-    a {
+  }
+
+   a {
       color: #d0970f;
     }
-  }
 }
 
 .accordionContent {

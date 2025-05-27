@@ -36,7 +36,7 @@ const Header = () => {
         <div className={styles.logoContainer}>
           <Link href="/" legacyBehavior>
             <a>
-              <img src="/logo.svg" alt="Logo" width={180} height={50} />
+              <img src="/logo.svg" alt="Logo" width={180} height='auto' />
             </a>
           </Link>
         </div>
