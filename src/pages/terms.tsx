@@ -12,7 +12,7 @@ const Privacy = () => {
   return (
     <main className={styles.main}>
       <div className={styles.containerBoxed}>
-        <h1 className={styles.title}>{t('privacy.title')}</h1>
+        <h1 className={styles.title}>{t('terms.title')}</h1>
         <div className={styles.sectionList}>
           {sections.map(({ title, subtitle, description }, index) => (
             <section key={index} className={styles.section}>
