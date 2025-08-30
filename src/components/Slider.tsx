@@ -1,21 +1,22 @@
-import React, { useEffect, useRef } from 'react';
-import styles from '@/styles/scss/Slider.module.scss';
-import { useTranslation } from 'react-i18next';
+import React, { useEffect, useRef } from "react";
+import styles from "@styles/scss/Slider.module.scss";
+import { useTranslation } from "react-i18next";
 
 const Slider = () => {
   const { t } = useTranslation();
   const textElementRef = useRef<HTMLSpanElement>(null);
 
-  const carousel: any = t('slider.carousel', { returnObjects: true });
+  const carousel: any = t("slider.carousel", { returnObjects: true });
 
   useEffect(() => {
     let isCancelled = false;
 
-    const waitForMs = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+    const waitForMs = (ms: number) =>
+      new Promise((resolve) => setTimeout(resolve, ms));
 
     const typeSentence = async (sentence: string, delay = 100) => {
       if (!textElementRef.current) return;
-      textElementRef.current.innerHTML = '';
+      textElementRef.current.innerHTML = "";
 
       for (let i = 0; i < sentence.length; i++) {
         if (isCancelled) return;
@@ -29,7 +30,8 @@ const Slider = () => {
 
       while (textElementRef.current?.innerHTML.length > 0) {
         if (isCancelled) return;
-        textElementRef.current.innerHTML = textElementRef.current.innerHTML.slice(0, -1);
+        textElementRef.current.innerHTML =
+          textElementRef.current.innerHTML.slice(0, -1);
         await waitForMs(delay);
       }
     };
@@ -54,14 +56,12 @@ const Slider = () => {
   return (
     <div className={styles.hero} id="home">
       <div className={styles.heroContent}>
-        <div className={styles.title}>{t('slider.title')}</div>
+        <div className={styles.title}>{t("slider.title")}</div>
         <div className={styles.typingContainer}>
           <span ref={textElementRef} className={styles.typingText}></span>
           <span className={styles.cursor}>_</span>
         </div>
-        <div className={styles.subtitle}>
-          {t('slider.subtitle')}
-        </div>
+        <div className={styles.subtitle}>{t("slider.subtitle")}</div>
       </div>
     </div>
   );

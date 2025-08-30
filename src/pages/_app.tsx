@@ -1,17 +1,23 @@
-import '@/styles/scss/globals.scss';
+import "@styles/scss/globals.scss";
 
-import Head from 'next/head';
-import type { AppProps } from 'next/app';
-import dynamic from 'next/dynamic';
-import React from 'react';
-import '@/utils/i18n';
+import Head from "next/head";
+import type { AppProps } from "next/app";
+import dynamic from "next/dynamic";
+import React from "react";
+import "@utils/i18n";
+import { throwErrorIfEnvVarsNotFound } from "@utils/ConfigUtils";
 
 export interface MyAppProps extends AppProps {}
 
 const App = (props: AppProps) => {
+  throwErrorIfEnvVarsNotFound();
   const { Component, pageProps } = props;
-  const Header = dynamic(() => import('@/components/layouts/Header'), { ssr: false });
-  const Footer = dynamic(() => import('@/components/layouts/Footer'), { ssr: false });
+  const Header = dynamic(() => import("@components/layouts/Header"), {
+    ssr: false,
+  });
+  const Footer = dynamic(() => import("@components/layouts/Footer"), {
+    ssr: false,
+  });
 
   return (
     <>

@@ -1,23 +1,24 @@
-import React from 'react';
-import styles from '@/styles/scss/Roadmap.module.scss';
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import styles from "@styles/scss/Roadmap.module.scss";
+import { useTranslation } from "react-i18next";
 
 const Roadmap = () => {
   const { t } = useTranslation();
-  const milestones: any = t('roadmap.milestones', { returnObjects: true });
+  const milestones: any = t("roadmap.milestones", { returnObjects: true });
 
   return (
     <section className={styles.roadmapSection} id="milestones">
       <div className={styles.container}>
         <div className={styles.leftColumn}>
           <div className={styles.headerBox}>
-            <div className={styles.label}>{t('roadmap.sectionLabel')}</div>
+            <div className={styles.label}>{t("roadmap.sectionLabel")}</div>
             <div className={styles.subtitle}>
-              {t('roadmap.subtitle')} <span>{t('roadmap.subtitleHighlight')}</span> Achievements and
-              Backlog.
+              {t("roadmap.subtitle")}{" "}
+              <span>{t("roadmap.subtitleHighlight")}</span>{" "}
+              {t("roadmap.remainingSubtitle")}
             </div>
           </div>
-          <p className={styles.description}>{t('roadmap.intro')}</p>
+          <p className={styles.description}>{t("roadmap.intro")}</p>
         </div>
 
         <div className={styles.rightColumn}>
@@ -28,12 +29,15 @@ const Roadmap = () => {
                 <div
                   key={index}
                   className={`${styles.milestoneItem} ${
-                    index === milestones.length - 1 ? styles.lastItem : ''
-                  }`}>
+                    index === milestones.length - 1 ? styles.lastItem : ""
+                  }`}
+                >
                   <div className={styles.milestoneDot}></div>
                   <div className={styles.milestoneContent}>
                     <h2>{milestone.title}</h2>
-                    <span className={styles.milestoneLabel}>{milestone.label}</span>
+                    <span className={styles.milestoneLabel}>
+                      {milestone.label}
+                    </span>
                     {milestone.description && <p>{milestone.description}</p>}
                   </div>
                 </div>

@@ -1,16 +1,16 @@
-import React from 'react';
-import styles from '@/styles/scss/Topics.module.scss';
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import styles from "@styles/scss/Topics.module.scss";
+import { useTranslation } from "react-i18next";
 
 const Topics = () => {
   const { t } = useTranslation();
-  const topics: any = t('topics.cards', { returnObjects: true });
+  const topics: any = t("topics.cards", { returnObjects: true });
 
   return (
     <section className={styles.topicsSection} id="topics">
       <div className={styles.container}>
-        <span className={styles.sectionTag}>{t('topics.sectionTag')}</span>
-        <h2 className={styles.sectionTitle}>{t('topics.title')}</h2>
+        <span className={styles.sectionTag}>{t("topics.sectionTag")}</span>
+        <h2 className={styles.sectionTitle}>{t("topics.title")}</h2>
 
         <div className={styles.cardGrid}>
           {topics.map((topic: any, index: number) => (

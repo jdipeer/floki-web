@@ -1,10 +1,10 @@
-import React from 'react';
-import styles from '@/styles/scss/Wallets.module.scss';
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import styles from "@styles/scss/Wallets.module.scss";
+import { useTranslation } from "react-i18next";
 
 const Wallets = () => {
   const { t } = useTranslation();
-  const cards: any = t('wallets.cards', { returnObjects: true });
+  const cards: any = t("wallets.cards", { returnObjects: true });
 
   return (
     <section className={styles.walletsSection} id="wallets">
@@ -19,7 +19,8 @@ const Wallets = () => {
                     href={card.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={styles.cardButton}>
+                    className={styles.cardButton}
+                  >
                     {card.button}
                   </a>
                 </div>
